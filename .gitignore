@@ -1,0 +1,10 @@
+# dépendances
+vendor/
+
+# CodeIgniter
+writable/session/
+writable/cache/
+writable/logs/
+
+# environnement
+.env
