@@ -6,10 +6,14 @@
     <title>Inscription</title>
     <link rel="stylesheet" href="<?= base_url('css/app.css') ?>">
 </head>
-<body>
+<body class="theme-auth">
     <div class="page">
         <div class="container">
             <header class="site-header">
+                <a class="brand" href="<?= site_url('/') ?>">
+                    <span class="brand-mark">R</span>
+                    Regime App
+                </a>
                 <nav class="nav">
                     <a href="<?= site_url('/') ?>">Accueil</a>
                     <a href="<?= site_url('/login') ?>">Connexion</a>

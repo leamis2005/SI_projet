@@ -6,10 +6,14 @@
     <title>Accueil</title>
     <link rel="stylesheet" href="<?= base_url('css/app.css') ?>">
 </head>
-<body>
+<body class="theme-home">
     <div class="page">
         <div class="container">
             <header class="site-header">
+                <a class="brand" href="<?= site_url('/') ?>">
+                    <span class="brand-mark">R</span>
+                    Regime App
+                </a>
                 <nav class="nav">
                     <a href="<?= site_url('/login') ?>">Connexion</a>
                     <a href="<?= site_url('/inscription') ?>">Inscription</a>
@@ -17,7 +21,7 @@
             </header>
 
             <section class="hero">
-                <div class="fade-up">
+                <div class="hero-text fade-up">
                     <h1 class="hero-title">Bienvenue</h1>
                     <p class="hero-subtitle">Une interface claire et elegante pour acceder a votre espace et suivre vos operations en toute confiance.</p>
                     <div class="actions">
