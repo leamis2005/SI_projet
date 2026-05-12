@@ -9,13 +9,6 @@
 <body>
     <div class="page">
         <div class="container">
-            <header class="site-header">
-                <nav class="nav">
-                    <a href="<?= site_url('/') ?>">Accueil</a>
-                    <a href="<?= site_url('/login') ?>">Connexion</a>
-                </nav>
-            </header>
-
             <div class="card form-card fade-up">
                 <h1 class="card-title">Inscription</h1>
                 <p class="card-subtitle">Creez votre compte pour acceder a l'espace personnel.</p>
@@ -65,6 +58,7 @@
 
                     <div class="actions">
                         <button class="btn btn-primary" type="submit">Continuer</button>
+                        <a class="btn btn-ghost" href="<?= site_url('/') ?>">Accueil</a>
                         <a class="btn btn-ghost" href="<?= site_url('/login') ?>">Deja un compte</a>
                     </div>
                 </form>

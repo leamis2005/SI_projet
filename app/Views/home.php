@@ -9,13 +9,6 @@
 <body>
     <div class="page">
         <div class="container">
-            <header class="site-header">
-                <nav class="nav">
-                    <a href="<?= site_url('/login') ?>">Connexion</a>
-                    <a href="<?= site_url('/inscription') ?>">Inscription</a>
-                </nav>
-            </header>
-
             <section class="hero">
                 <div class="fade-up">
                     <h1 class="hero-title">Bienvenue</h1>
