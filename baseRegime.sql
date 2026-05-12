@@ -146,26 +146,17 @@ INSERT INTO parametres (cle, valeur) VALUES
 ('imc_ideal_max', '24.9');
 
 INSERT INTO users (nom, email, mot_de_passe, genre, date_naissance, wallet, gold) VALUES
-('Alice Dupont', 'alice@example.com', '$2y$10$hashedpassword1', 'FEMME', '1990-05-15', 50000, 1),
-('Bob Martin', 'bob@example.com', '$2y$10$hashedpassword2', 'HOMME', '1985-03-20', 0, 0),
-('Claire Leroy', 'claire@example.com', '$2y$10$hashedpassword3', 'FEMME', '1992-08-10', 20000, 0),
-('David Moreau', 'david@example.com', '$2y$10$hashedpassword4', 'HOMME', '1988-12-05', 10000, 1),
-('Emma Petit', 'emma@example.com', '$2y$10$hashedpassword5', 'FEMME', '1995-03-25', 0, 0);
+('Alice Dupont', 'alice@gmail.com', '$2y$10$hashedpassword1', 'FEMME', '1990-05-15', 50000, 1),
+('Bob Martin', 'bob@gmail.com', '$2y$10$hashedpassword2', 'HOMME', '1985-03-20', 0, 0);
 
 -- Admin account (email: admin@example.com, password: admin123)
 INSERT INTO users (nom, email, mot_de_passe, genre, date_naissance, role, wallet, gold) VALUES
-('Admin', 'admin@example.com', '$2y$10$8oDAeD5RRk72dcGGwrrtMuDQhfKvzqdAEFzjlJg7nloZ9EDaK8bb6', 'HOMME', '1990-01-01', 'ADMIN', 0, 0);
+('Admin', 'admin@gmail.com', '$2y$10$8oDAeD5RRk72dcGGwrrtMuDQhfKvzqdAEFzjlJg7nloZ9EDaK8bb6', 'HOMME', '1990-01-01', 'ADMIN', 0, 0);
 
 INSERT INTO profil_sante (id_user, taille, poids, imc) VALUES
 (1, 1.65, 60.0, 22.04),
-(2, 1.80, 75.0, 23.15),
-(3, 1.70, 65.0, 22.49),
-(4, 1.75, 80.0, 26.12),
-(5, 1.60, 55.0, 21.48);
+(2, 1.80, 75.0, 23.15);
 
 INSERT INTO user_objectif (id_user, id_objectif) VALUES
 (1, 1), (1, 3),  -- Alice : augmenter et atteindre IMC idéal
-(2, 2),          -- Bob : réduire poids
-(3, 3),          -- Claire : atteindre IMC idéal
-(4, 1), (4, 2),  -- David : augmenter et réduire (exemple)
-(5, 2), (5, 3);  -- Emma : réduire et atteindre IMC idéal
+(2, 2);          -- Bob : réduire poids

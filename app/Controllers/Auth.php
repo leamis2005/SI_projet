@@ -145,10 +145,10 @@ class Auth extends BaseController
         return redirect()->to('/login')->with('message', 'Inscription reussie. Connectez-vous.');
     }
 
-    // public function logout(): RedirectResponse
-    // {
-    //     session()->destroy();
+    public function logout(): RedirectResponse
+    {
+        session()->destroy();
 
-    //     return redirect()->to('/login');
-    // }
+        return redirect()->to('/login');
+    }
 }

@@ -9,6 +9,7 @@
 <body>
     <div class="page">
         <div class="container">
+
             <section class="hero">
                 <div class="fade-up">
                     <h1 class="hero-title">Bienvenue</h1>

@@ -1,0 +1,27 @@
+CRITICAL - 2026-05-11 04:35:25 --> Error: Class "Dompdf\Options" not found
+[Method: GET, Route: export/pdf]
+in APPPATH/Controllers/Export.php on line 65.
+ 1 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Export->userPdf()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-05-11 04:36:28 --> Error: Class "Dompdf\Options" not found
+[Method: GET, Route: export/pdf]
+in APPPATH/Controllers/Export.php on line 65.
+ 1 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Export->userPdf()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+CRITICAL - 2026-05-11 05:32:31 --> Error: Class "Dompdf\Options" not found
+[Method: GET, Route: export/pdf]
+in APPPATH/Controllers/Export.php on line 65.
+ 1 SYSTEMPATH/CodeIgniter.php(951): App\Controllers\Export->userPdf()
+ 2 SYSTEMPATH/CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
