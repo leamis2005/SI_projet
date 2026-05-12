@@ -1,4 +1,4 @@
-# Projet_S4
+# SI_projet
 
 ## Prerequis
 - PHP 8.2+ avec extensions `intl`, `mbstring` et `dom`
