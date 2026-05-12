@@ -47,6 +47,12 @@
                         <button class="btn btn-primary" type="submit">Se connecter</button>
                         <a class="btn btn-ghost" href="<?= site_url('/inscription') ?>">Creer un compte</a>
                     </div>
+                    <div class="test-info">
+                        <p><strong>Compte test :</strong></p>
+                        <p>Email : admin@gmail.com</p>
+                        <p>Mot de passe : admin123</p>
+                    </div>  
+                   
                 </form>
             </div>
 
